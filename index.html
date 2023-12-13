@@ -4,37 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <h1>Johannesburg</h1>
-      <p>
-        Wednesday 19:08 broken clouds
-        <br />
-        61%, Wind: 1.79km/h
-      </p>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="http://github.com/TOWELA96" target="_blank">Towela Tembo</a>
-      hosted on
-      <a href="https://github.com/TOWELA96/Weather-App-Towela" target="_blank"
-        >Github</a
-      >
-      website hosted on
-      <a
-        href="https://6579b38953e5da159c295182--chimerical-rugelach-e9cf75.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="box">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Johannesburg</h1>
+          <p>
+            Wednesday 19:08 broken clouds
+            <br />
+            61%, Wind: 1.79km/h
+          </p>
+        </div>
+        <div>
+          <p>🌥 12°C</p>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="http://github.com/TOWELA96" target="_blank">Towela Tembo</a>
+        hosted on
+        <a href="https://github.com/TOWELA96/Weather-App-Towela" target="_blank"
+          >Github</a
+        >
+        website hosted on
+        <a
+          href="https://6579b38953e5da159c295182--chimerical-rugelach-e9cf75.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
