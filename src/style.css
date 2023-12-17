@@ -57,14 +57,24 @@ header {
   justify-content: space-between;
 }
 
-.degrees {
-  margin: 25px 0 0 0;
-  font-size: 50px;
+.weather-app-temp-container {
+  display: flex;
+  margin: 10px 0 0 0;
 }
 
-.celcius {
-  font-size: 20px;
+.weather-icon {
+  font-size: 40px;
   margin-top: 20px;
+}
+
+.weather-app-temp {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.weather-app-unit {
+  font-size: 30px;
+  margin-top: 15px;
 }
 
 footer {
