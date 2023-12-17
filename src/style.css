@@ -4,6 +4,7 @@ body {
 }
 h1 {
   font-weight: 500;
+  font-size: 38px;
 
   a {
     color: #856799;
@@ -41,6 +42,29 @@ header {
   font-size: 16px;
   margin: 0 0 0 20px;
   color: white;
+}
+
+.weather-app-date {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.weather-update {
+  color: #f65782;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.degrees {
+  margin: 25px 0 0 0;
+  font-size: 50px;
+}
+
+.celcius {
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 footer {
