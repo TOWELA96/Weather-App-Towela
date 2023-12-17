@@ -15,11 +15,12 @@
   <body>
     <div class="box">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1>Johannesburg</h1>
+            <h1 id="city">Johannesburg</h1>
             <p class="weather-app-date">
               Wednesday 19:08 broken clouds
               <br />
